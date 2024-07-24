@@ -1,15 +1,23 @@
 # Distributed systems
-* Multiple systems that operate independently.
-* Should be scalable.
-* Concurrency.
-* Consistency.
-* Should be reliable and fault tolerant.
-* Availability.
-* Efficiency - how well the system performs.
-* Manageability.
+Distributed systems are complex computing systems that consist of multiple autonomous components located on different nodes, communicating and coordinating with each other to achieve a common goal. Some key characteristics of distributed systems include:
+
+* `Scalability` - should be able to handle large amounts of data and workloads by adding more nodes to the system.
+* `Concurrency` - ability to process multiple requests or tasks simultaneously, improving overall system performance.
+* `Consistency` - must ensure data consistency across all nodes. 
+* `Fault tolerance` - systems can continue to function even if some nodes fail.
+* `Availability` - systems should be highly available. 
+* `Efficiency` - how well the system performs.
+* `Security` - must be designed with security in mind to protect against various threats, such as data breaches, denial-of-service attacks, and unauthorized access.
 
 # DNS
-* Route 53
+* [How does DNS work?](https://www.youtube.com/watch?v=27r4Bzuj5NQ)
+* [Route 53 basics](https://www.youtube.com/watch?v=JRZiQFVWpi8)
+* [DNS & Amazon Route 53 Deep dive](https://www.youtube.com/watch?v=94vdYMBcE5Y&t=2495s)  
+  * [Simple routing policy](https://youtu.be/94vdYMBcE5Y?t=1186).
+  * Latency based routing policy.
+  * Weighted routing policy.
+  * Geolocation routing policy.
+  * Failover routing policy (primary to secondary failover based on health checks).
 
 # Load balancer
 * Balance incoming traffic.
