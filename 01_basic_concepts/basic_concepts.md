@@ -9,6 +9,8 @@ Distributed systems are complex computing systems that consist of multiple auton
 * `Efficiency` - how well the system performs.
 * `Security` - must be designed with security in mind to protect against various threats, such as data breaches, denial-of-service attacks, and unauthorized access.
 
+Following are some of the key concepts and technologies involved in designing distributed systems.
+
 # DNS
 * [How does DNS work?](https://www.youtube.com/watch?v=27r4Bzuj5NQ)
 * [Route 53 basics](https://www.youtube.com/watch?v=JRZiQFVWpi8)
@@ -87,16 +89,6 @@ Distributed systems are complex computing systems that consist of multiple auton
 * Cache consistency.
 * Redis, Memcached, etc.
 
-# Storage considerations
-* Block / Object / File.  
-* Replication factor.
-* Synchronous and async replication.
-* Snapshot capabilities.
-* Deduplication.
-* Compression.
-* Encryption.
-* Hot / Cold / Archival.
-
 # Message queues
 * Kafka.
 
@@ -134,4 +126,33 @@ Distributed systems are complex computing systems that consist of multiple auton
 * SOLR.
 
 # CAP theorem
+
+# Storage considerations
+* Block / Object / File.  
+* Replication factor.
+* Synchronous and async replication.
+* Snapshot capabilities.
+* Deduplication.
+* Compression.
+* Encryption.
+* HDD / SSD / NVMe.
+* RAID.
+* Erasure coding.
+* Hot / Cold / Archival.
+
+# Network considerations
+* NIC teaming/ bonding.
+* Spine-Leaf vs traditional architecture.
+* Type of network swtiches.
+* Type of network interface cards, cables, and interconnects.
+* Dell VLT and Cisco VPC.
+* RDMA.
+
+# Microservices architecture and Kubernetes
+* Microservices architecture provides the business logic and functionality.
+* Kubernetes provides the platform for deploying and managing those microservices in a distributed environment.
+* Some of the key [non-functional design considerations for a Kubernetes cluster are explained here](https://github.com/vineethac/Kubernetes/tree/main/k8s-nfr-design-considerations).
+
+# On-premises vs cloud vs hybrid infrastructure
+* The choice between on-premises, cloud, and hybrid depends on an organization's specific needs, budget, and business requirements.
 
