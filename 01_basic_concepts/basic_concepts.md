@@ -113,9 +113,9 @@ Following are some of the key concepts and technologies involved in designing di
 * Alert manager.
 
 # Disaster recovery (DR) plans
-* [Reference architecture in AWS](https://aws.amazon.com/blogs/architecture/disaster-recovery-dr-architecture-on-aws-part-i-strategies-for-recovery-in-the-cloud/)
-
-# Backup
+* Backup solutions.
+* [Reference architecture in AWS](https://aws.amazon.com/blogs/architecture/disaster-recovery-dr-architecture-on-aws-part-i-strategies-for-recovery-in-the-cloud/).
+* [Backup and DR strategies for increased resilience in AWS](https://www.youtube.com/watch?v=E073XISxrSU&t=376s).
 
 # Reporting/ analytics
 * Hadoop.
@@ -126,6 +126,7 @@ Following are some of the key concepts and technologies involved in designing di
 * SOLR.
 
 # CAP theorem
+* [CAP Theorem Simplified](https://www.youtube.com/watch?v=BHqjEjzAicA&t=22s).
 
 # Storage considerations
 * Block / Object / File.  
