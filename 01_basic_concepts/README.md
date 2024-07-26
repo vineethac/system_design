@@ -1,4 +1,3 @@
-# Distributed systems
 Distributed systems are complex computing systems that consist of multiple autonomous components located on different nodes, communicating and coordinating with each other to achieve a common goal. Some key characteristics of distributed systems include:
 
 * `Scalability` - should be able to handle large amounts of data and workloads by adding more nodes to the system.
@@ -137,8 +136,8 @@ Following are some of the key concepts and technologies involved in designing di
 * Compression.
 * Encryption.
 * HDD / SSD / NVMe.
-* RAID.
-* Erasure coding.
+* [RAID](https://www.youtube.com/watch?v=2Dovoc9LP34).
+* [Erasure coding](https://www.youtube.com/watch?v=Q5kVuM7zEUI).
 * Hot / Cold / Archival.
 
 # Network considerations
@@ -147,7 +146,12 @@ Following are some of the key concepts and technologies involved in designing di
 * Type of network swtiches.
 * Type of network interface cards, cables, and interconnects.
 * Dell VLT and Cisco VPC.
+* Routing protocols (BGP, OSPF, etc.).
 * RDMA.
+
+# Compute considerations
+* Baremetal / Virtualization / Containerization. 
+* Serverless.
 
 # Microservices architecture and Kubernetes
 * Microservices architecture provides the business logic and functionality.
